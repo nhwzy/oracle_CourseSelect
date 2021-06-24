@@ -18,7 +18,7 @@ namespace 小型管理信息系统.Code
         {
             try
             {
-                String sql = "Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=orcl)));Persist Security Info=True;User ID=wangziyao;Password=wzysgdbd52;";
+                String sql = "Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=orcl)));Persist Security Info=True;User ID=*******;Password=*******;";
                 OracleConnection cnt = new OracleConnection(sql);
                 cnt.Open();
                 return cnt;
