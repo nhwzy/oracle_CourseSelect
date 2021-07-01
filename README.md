@@ -1,4 +1,3 @@
-# oracle_CourseSelect
 NUAA_Oracle_Homework
 这是南京航空航天大学数据库原理的小课设，实现的是一个学生选课信息系统，大概分了三个用户，分别是学生，老师，管理员。
 这个课设主要由c#编写，.net框架
